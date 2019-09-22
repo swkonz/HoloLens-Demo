@@ -2,6 +2,7 @@
 #include "SpinningCubeRenderer.h"
 #include "Common/DirectXHelper.h"
 
+
 using namespace dx11HoloLensDemo;
 using namespace DirectX;
 using namespace winrt::Windows::Foundation::Numerics;
@@ -11,6 +12,8 @@ using namespace winrt::Windows::UI::Input::Spatial;
 SpinningCubeRenderer::SpinningCubeRenderer(std::shared_ptr<DX::DeviceResources> const& deviceResources) :
     m_deviceResources(deviceResources)
 {
+	// Load DICOM file here and store as object 
+
     CreateDeviceDependentResources();
 }
 
