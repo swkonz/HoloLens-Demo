@@ -7,6 +7,8 @@ This repo contains A basic directX Hololens application that renders a cube into
 - Follow the instructions for installing the tools for HoloLens 2 Development: https://docs.microsoft.com/en-us/windows/mixed-reality/install-the-tools
 	- This will require Windows 10, VS19, Windows 10 SDK, HoloLens 2 Emulator (Only for testing locally)
 
+### Running
+- Run configuration for the HoloLens Emulator is: Release, x86, device= emulator. Run with Debug=>Start without debugging
 
 ### Details
 - This project is a duplicate of the starter directX project for hololens with some tweaking for reading a DICOM Image using DCMTK
